@@ -26,7 +26,6 @@ def index():
 @app.route('/schedules', methods=['GET'])
 def schedules():
     data = jsonify(read_json())
-    print(type(data))
     data.headers.add('Access-Control-Allow-Origin', '*')
     data.headers.add('Access-Control-Allow-Headers', 'Content-Type')
     data.headers.add('Access-Control-Allow-Methods', 'GET, POST')
@@ -48,4 +47,4 @@ def update_schedule_active_state(scheduler_name):
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(DEBUG=True)

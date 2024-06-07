@@ -4,10 +4,10 @@
         "flow1": 20,
         "flow2": 10,
         "flow3": 20,
-        "isActive": true,
+        "isActive": false,
         "schedulerName": "Schedule_1",
-        "startTime": "18:30",
-        "stopTime": "18:40"
+        "startTime": "18:30:00",
+        "stopTime": "18:40:00"
     },
     {
         "cycle": 3,
@@ -16,17 +16,17 @@
         "flow3": 10,
         "isActive": false,
         "schedulerName": "Schedule_2",
-        "startTime": "10:30",
-        "stopTime": "10:40"
+        "startTime": "10:30:00",
+        "stopTime": "10:40:00"
     },
     {
         "cycle": 2,
         "flow1": 20,
         "flow2": 20,
         "flow3": 20,
-        "isActive": true,
+        "isActive": false,
         "schedulerName": "Schedule_3",
-        "startTime": "8:30",
-        "stopTime": "8:40"
+        "startTime": "8:30:00",
+        "stopTime": "8:40:00"
     }
 ]
