@@ -1,31 +1,32 @@
-[{
-  "cycle": 5,
-  "flow1": 20,
-  "flow2": 10,
-  "flow3": 20,
-  "isActive": true,
-  "schedulerName": "Schedule 1",
-  "startTime": "18:30",
-  "stopTime": "18:40"
-
-},
-{
-  "cycle": 3,
-  "flow1": 10,
-  "flow2": 10,
-  "flow3": 10,
-  "isActive": false,
-  "schedulerName": "Schedule 2",
-  "startTime": "10:30",
-  "stopTime": "10:40"
-}, {
-  "cycle": 2,
-  "flow1": 20,
-  "flow2": 20,
-  "flow3": 20,
-  "isActive": true,
-  "schedulerName": "Schedule 3",
-  "startTime": "8:30",
-  "stopTime": "8:40"
-  }
+[
+    {
+        "cycle": 5,
+        "flow1": 20,
+        "flow2": 10,
+        "flow3": 20,
+        "isActive": true,
+        "schedulerName": "Schedule_1",
+        "startTime": "18:30",
+        "stopTime": "18:40"
+    },
+    {
+        "cycle": 3,
+        "flow1": 10,
+        "flow2": 10,
+        "flow3": 10,
+        "isActive": false,
+        "schedulerName": "Schedule_2",
+        "startTime": "10:30",
+        "stopTime": "10:40"
+    },
+    {
+        "cycle": 2,
+        "flow1": 20,
+        "flow2": 20,
+        "flow3": 20,
+        "isActive": true,
+        "schedulerName": "Schedule_3",
+        "startTime": "8:30",
+        "stopTime": "8:40"
+    }
 ]
